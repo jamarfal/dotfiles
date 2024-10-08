@@ -1,0 +1,8 @@
+# El archivo .zshenv es un archivo de configuración para el shell Zsh (Z Shell) que se carga cada vez que se inicia una nueva instancia del shell, 
+# ya sea de forma interactiva o no interactiva.
+export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/sbin:$PATH
+export PATH=/Users/jose.alberto/Library/Android/sdk/platform-tools:$PATH
+export PATH=/usr/local/bin:$PATH
+
+export EDITOR="code"

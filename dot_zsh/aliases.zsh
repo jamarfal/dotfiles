@@ -6,4 +6,5 @@ alias lla='ls -la'
 alias lt='ls --tree'
 alias grc='git rebase --continue'
 
-alias zshconfig="chezmoi edit --apply ~/.zshrc"
+alias zshconfig="chezmoi edit --watch ~/.zshrc"
+alias editdot="chezmoi edit --watch $FILE"
